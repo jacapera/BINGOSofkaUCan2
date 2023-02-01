@@ -1,0 +1,10 @@
+.divPrincipal {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 20px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+
+}

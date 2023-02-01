@@ -1,0 +1,91 @@
+.divPrincipalCartonBingo {
+  display: flex;
+  min-width: 390px;
+
+}
+
+.divBingoCard2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*border: 3px solid black;*/
+  width:auto;
+
+}
+.divLetra {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  border: 1px solid black;
+}
+
+.divtitulo{
+  display: flex;
+  border: 1px solid black;
+  background-color: aqua;
+  justify-content: center;
+}
+
+.divBontones {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  max-width: 320px;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.btnBingoCard {
+  height: 50px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 38px;
+  background-color: #1111d1;
+  color: white;
+  border-radius: 15px;
+  border: 2px solid white;
+  margin: 4px;
+  cursor: pointer;
+  user-select: none;
+}
+
+button {
+  font-size: 60px;
+}
+
+.botonBingo {
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 25px;
+  border-color: #07b32f;
+  width: auto;
+  height: 50 px;
+  border-radius: 15px;
+  background-color: #07b32f;
+  padding: 7px;
+  transition: transform .4s;
+}
+
+.botonBingo:hover {
+  transform: scale(1.2);
+}
+
+.btnCarton {
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 17px;
+  border-color: rgb(6, 113, 253);
+  width: 100px;
+  border-radius: 15px;
+  background-color: rgb(6, 113, 253);
+  padding: 7px;
+  
+}

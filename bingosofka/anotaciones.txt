@@ -1,0 +1,92 @@
+<div className='divLetra'>
+  {
+    this.state.listaB.map((row, rowIndex) => (
+      <button className='btnBingoCard' ked = {rowIndex} >{row}</button>
+    ))
+  }
+</div>
+
+<div className='divLetra'>
+  {
+    this.state.listaI.map((row, rowIndex) => (
+      <button className='btnBingoCard' ked = {rowIndex}>{row}</button>
+    ))
+  }
+</div>
+
+<div className='divLetra'>
+  {
+    this.state.listaN.map((row, rowIndex) => (
+      <button className='btnBingoCard' ked = {rowIndex}>{row}</button>
+    ))
+  }
+</div>
+
+<div className='divLetra'>
+  {
+    this.state.listaG.map((row, rowIndex) => (
+      <button className='btnBingoCard' ked = {rowIndex}>{row}</button>
+    ))
+  }
+</div>
+
+<div className='divLetra'>
+  {
+    this.state.listaO.map((row, rowIndex) => (
+      <button className='btnBingoCard' ked = {rowIndex}>{row}</button>
+    ))
+  }
+</div>
+
+//Forma de renderizar matriz 5 x 5
+{
+  carton.map((row, rowIndex) => (
+    <div className='divBingoCard' key = {rowIndex}>
+      {row.map((cell, cellIndex) => (
+        <button className='btnBingoCard' ked = {cellIndex}>{cell}</button>
+      ))}
+    </div>
+  ))
+}
+
+
+
+{/* <div className='divLetra'>
+      <button className='btnBingoCard' onClick={(event) =>this.handleClick(event, this.state.listaB[0])}>{this.state.listaB[0]}</button>
+      <button className='btnBingoCard' onClick={(event) =>this.handleClick(event, this.state.listaB[1])}>{this.state.listaB[1]}</button>
+      <button className='btnBingoCard' onClick={(event) =>this.handleClick(event, this.state.listaB[2])}>{this.state.listaB[2]}</button>
+      <button className='btnBingoCard' onClick={(event) =>this.handleClick(event, this.state.listaB[3])}>{this.state.listaB[3]}</button>
+      <button className='btnBingoCard' onClick={(event) =>this.handleClick(event, this.state.listaB[4])}>{this.state.listaB[4]}</button>
+    </div> */}
+
+<div className='divLetra'>
+  <button className='btnBingoCard'>{this.state.listaI[0]}</button>
+  <button className='btnBingoCard'>{this.state.listaI[1]}</button>
+  <button className='btnBingoCard'>{this.state.listaI[2]}</button>
+  <button className='btnBingoCard'>{this.state.listaI[3]}</button>
+  <button className='btnBingoCard'>{this.state.listaI[4]}</button>
+</div>
+
+<div className='divLetra'>
+  <button className='btnBingoCard'>{this.state.listaN[0]}</button>
+  <button className='btnBingoCard'>{this.state.listaN[1]}</button>
+  <button className='btnBingoCard'>{this.state.listaN[2]}</button>
+  <button className='btnBingoCard'>{this.state.listaN[3]}</button>
+  <button className='btnBingoCard'>{this.state.listaN[4]}</button>
+</div>
+
+<div className='divLetra'>
+  <button className='btnBingoCard'>{this.state.listaG[0]}</button>
+  <button className='btnBingoCard'>{this.state.listaG[1]}</button>
+  <button className='btnBingoCard'>{this.state.listaG[2]}</button>
+  <button className='btnBingoCard'>{this.state.listaG[3]}</button>
+  <button className='btnBingoCard'>{this.state.listaG[4]}</button>
+</div>
+
+<div className='divLetra'>
+  <button className='btnBingoCard'>{this.state.listaO[0]}</button>
+  <button className='btnBingoCard'>{this.state.listaO[1]}</button>
+  <button className='btnBingoCard'>{this.state.listaO[2]}</button>
+  <button className='btnBingoCard'>{this.state.listaO[3]}</button>
+  <button className='btnBingoCard'>{this.state.listaO[4]}</button>
+</div>

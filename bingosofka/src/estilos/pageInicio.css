@@ -1,0 +1,8 @@
+.divPrincipalPageInicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 390px;
+    padding: 5px;
+}

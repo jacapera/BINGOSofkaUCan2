@@ -1,0 +1,22 @@
+.divPrincipalPageJuego {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-width: 380px;;
+  border: 4px solid purple;
+  gap: 5px;
+  padding: 5px;
+  max-width:1500px;
+
+}
+
+.divTitulos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
