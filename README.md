@@ -23,5 +23,8 @@ la interface grafica que interactuara con el cliente o jugador.  A continuación
 - Se requiere que al ganar un jugador todos los demas vean un mensaje que les indique que acabo el juego y quien fue el ganador.
 - Se requiere que cuando el jugador sea descalificado sea sacado del juego y no pueda volver a entrar al mismo juego, tendra que esperar el proximo juego.
 - Se requier que el jugador pueda volver a ingresar al juego que empezo si aun no ha terminado.
+
+## Demostración de Funcionamiento
+https://youtu.be/A9ZOS4LdcOM
   
      
