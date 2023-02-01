@@ -1,0 +1,17 @@
+>use participantes
+>db
+>db.usuarios.insertOne({usuario:"Jacapera", contraseña: "T34@#"});
+
+
+participantes {
+    _id:"",
+    usuario: "",
+    password: "",
+}
+
+sesiones {
+    _id:"",
+    usuario_id: "",
+    minutos:"",
+    segundos: "",
+}
