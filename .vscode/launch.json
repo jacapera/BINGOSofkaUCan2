@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BingoBackendMysqlApplication<bingo-backend-mysql>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.sofka.bingo.BingoBackendMysqlApplication",
+            "projectName": "bingo-backend-mysql",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
