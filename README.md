@@ -1,4 +1,5 @@
 # BINGOSofkaUCan2
+## Los repo se encuentran en ramas individuales de este repositorio...ir a las ramas para ver el codigo
 
 ## Juego de Bingo Virtual
 Se desarrolla una aplicación para jugar Bingo multiusuario en linea, para el desarrollo de esta aplicacion se implemento un Backend con Node.js, que se encargara de gestionar todo lo relacionado con los datos de los jugadores, como registrarse e iniciar sesion.  Se implemento un Backend con SpringBoot que se encargara de gestionar 
